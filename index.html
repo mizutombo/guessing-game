@@ -1,1 +1,77 @@
+
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World Proto App</title>
+  </head>
+  <body>
+    <h1>A Brief History of Me</h1>
+    <hr />
+    <h2><b><i>Name</i></b></h2>
+    <p><b>Tom Shultz</b></p>
+    <h2><b><i>Biography</i></b></h2>
+    <p>Born and raised in Seattle, WA. Graduated from the University of Washington.
+        Lived in Long Beach, CA and Alameda, CA while serving in the US Navy.
+        Moved to Portland, OR in 1994 to attend graduate school at Portland State University.</p>
+    <p>Traveled to many countries; Aruba, Australia, Bahrain, Canada, China, Finland, Hong Kong, Japan, Mexico, Norway, Panama, Philippines, South Korea, Sweden, Thailand, and United Arab Emirates.</p>
+    <h2><b><i>List of Experience</i></b></h2>
+    <p>3 years at <b>Intel</b> as an NPI Materials Program Manager, working with companies in Taiwan, China, Malaysia, and Mexico.</p>
+    <p>10 years at <b>Xerox</b> as a Supplier Quality Engineer &amp OEM Business Program Manager, working with companies in Japan, China, Thailand, and South Korea.</p>
+    <p>5 years at <b>Tektronix</b> as a Chemicals Procurement Program Manager, working with companies in Japan and Germany.</p>
+    <p>6 years in the <b>US Navy</b> as a Surface Line Officer. Served aboard USS Duncan (FFG-10) and USS Arkansas (CGN-41). Deployed to Central America (drug interdiction operations) and to the Persian Gulf (Operation Desert Storm). Port calls in Philippines, Thailand, Bahrain, United Arab Emirates, Australia, Mexico, and Panama.</p>
+    <h2><b><i>List of Education</i></b></h2>
+    <p><b>MBA</b> -- <b>Portland State University</b> (Portland, OR)</p>
+    <p><b>Bachelor of Science in Engineering</b> -- <b>University of Washington</b> (Seattle, WA)</p>
+    <h2><b><i>List of Goals</i></b></h2>
+    <p>Become a software developer, specializing in software quality assurance, at a small to midsize software company in Portland.</p>
+    <p><b>Never</b> <b>ever</b> <b>again</b> work for a large corporation!!!</p>
+    <p>Continue to code for as long as I can.</p>
+    <p>Have my daughter always be happy in her life no matter what she chooses to do.</p>
+    <p>Eventually start my own home-based software development company.</p>
+
+        <script type="text/javascript">
+
+          var userName = prompt("What is your name?");
+            console.log("Opening greeting to user.");
+            alert("Very nice to meet you " + userName + "!" + " Try to answer these questions about me.");
+
+          var userResponse1 = prompt("Did Tom grow up in Portland, Oregon?  Yes or No");
+            console.log("First YES or NO question to user. Correct response is NO.");
+          if (userResponse1.toUpperCase() == "YES") {
+            alert("No " + userName + ", that is incorrect! Tom grew up in Seattle, Washington.")
+          } else {
+            alert("Awesome " + userName + ", you are absolutely correct!");
+          };
+
+          var userResponse2 = prompt("Did Tom attend Washington State University?  Yes or No");
+            console.log("Second YES or NO question to user. Correct response is NO.");
+          if (userResponse2.toUpperCase() == "YES") {
+            alert("Arrgh! Wrong! No " + userName + ", I'm a UW Husky, not a WSU Cougar.")
+          } else {
+            alert("You're right, " + userName + "! Go Huskies!!!");
+          };
+
+          var userResponse3 = prompt("Does Tom really want to work for another large technology company after he completes his Code 401 class?  Yes or No");
+            console.log("Third YES or NO question to user. Correct response is NO.");
+          if (userResponse3.toUpperCase() == "YES") {
+            alert(userName + " ... No! Never ever again do I want to work for a large company.")
+          } else {
+            alert("You got that right, " + userName + ". I want to work for a small to mid-size software development company.");
+          };
+
+          var correct = 3;
+          var workYears = prompt("How many years did Tom work for Intel?");
+            console.log("Fourth question to user. Numerical guess, with 3 as correct answer.");
+          if (workYears > 3) {
+            alert("Too high!")
+          }
+          else if (Number(workYears) === correct) {
+            alert("Correct")
+          }
+          else {
+            alert("Too low!")
+          };
+
+        </script>
+  </body>
+</html>
