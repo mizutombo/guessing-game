@@ -1,5 +1,4 @@
-<script type="text/javascript">
-  /*
+   /*
   Revised code for opening question to user to account for user not providing userName, or hitting "Cancel" button when asked for userName.
   */
   var userName = "";
@@ -98,4 +97,3 @@
     }
   }
   };
-  </script>
