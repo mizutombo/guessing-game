@@ -11,5 +11,5 @@ README.md<br/>
 * 6-JUL-2016 / cleaned up code in README file; bullets & line breaks.<br/>
 * 6-JUL-2016 / cleaned up indentations for JS code in game.js file for readability.<br/>
 * 6-JUL-2016 / start comments in README.md file for new class04 branch & ACP all new file changes to class03 branch before starting changes for class04 branch.<br/>
-<br/>
+
 ** start class04<br/>
