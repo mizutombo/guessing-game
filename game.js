@@ -32,6 +32,39 @@
     alert("Wrong " +userName+ ", Tom didn't move to Portland until 1994!");
     userScore1 = 0;
   };
+
+// create function for Y/N guessing game
+//<script type="text/javascript" src="game.js"></script>
+  //<button onclick = function(gameMe)>"Guessing Game"</button>
+
+  var Count = 0;
+  var UserName = prompt("What is your name?");
+  alert("Hello " +userName+ "! Here is my guessing game.");
+
+  function gameMe(question, answer, posfeed, negfeed) {
+
+    query ("Did Tom grow up in Portland, Oregon?  Yes or No", (userResponse1.toUpperCase() == "NO") || (userResponse1.toUpperCase() == "N"), userName+ ", that is correct! Tom grew up in Seattle, Washington.", "Wrong " +userName+ ", Tom didn't move to Portland until 1994!");
+
+    query ("Did Tom attend Washington State University?  Yes or No", (userResponse2.toUpperCase() == "NO") || (userResponse2.toUpperCase() == "N"), "You're right, " +userName+ "! Tom went to the University of Washington. Go Huskies!!!", "Arrgh! Wrong! No " +userName+ ", Tom is a UW Husky, not a WSU Cougar.");
+
+    query ("Does Tom really want to work for another large technology company after he completes his Code 401 class?  Yes or No", (userResponse3.toUpperCase() == "NO") || (userResponse3.toUpperCase() == "N"), "You got that right, " +userName+ ". Tom wants to work for a small to mid-size software development company.", userName+ " ... No! Never ever again does Tom want to work for a large company.");
+
+  var finalScore = alert("Your final score is " +Count+ " points.");
+
+  function query(question, answer, posfeed, negfeed) {
+  var userRsp = prompt(question)
+  if (userResp = answer) {
+    alert(posfeed);
+    Count ++;
+  } else {
+    alert(negfeed);
+  }
+  }
+  };
+
+
+
+
   // Question # 2 for user; YES or NO response.
   var userScore2 = "";
   var userResponse2 = prompt("Did Tom attend Washington State University?  Yes or No");
