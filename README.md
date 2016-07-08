@@ -13,6 +13,7 @@ README.md<br/>
 * 6-JUL-2016 / start comments in README.md file for new class04 branch & ACP all new file changes to class03 branch before starting changes for class04 branch.<br/>
 
 ** start class04<br/>
-* 6-JUL-2015 / created branch "class04" for ongoing changes to implement functions and CSS ... created new file "index.css" ... ACP to git.
-* 7-JUL-2015 / created new file "gamefunction.js" as source for new code to create function capability with guessing game from "game.js" file ... linked into "index.html" file as onclick functional user interface.
-* 7-JUL-2015 / crunched "gamefunction.js" code to functional status for first 3 guessing game questions; Yes or No.
+* 6-JUL-2016 / created branch "class04" for ongoing changes to implement functions and CSS ... created new file "index.css" ... ACP to git.
+* 7-JUL-2016 / created new file "gamefunction.js" as source for new code to create function capability with guessing game from "game.js" file ... linked into "index.html" file as onclick functional user interface.
+* 7-JUL-2016 / crunched "gamefunction.js" code to functional status for first 3 guessing game questions; Yes or No.
+* 7-JUL-2016 / developed & debugged code for first 5 questions in "gamefunction.js" ... validated in browser for functionality ... ACP to git.
