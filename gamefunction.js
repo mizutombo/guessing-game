@@ -19,9 +19,11 @@
 
   function query(question, corans, posfeed, negfeed) {
   var userRsp = prompt(question);
+  var areEqual = userRsp.toUpperCase();
   console.log(userRsp);
-  if (userRsp === ("NO"||"No"||"N"||"n")) {
-    console.log(userRsp);
+  console.log(areEqual);
+  if ((areEqual == "NO") || (areEqual == "N")) {
+    console.log(areEqual);
     alert(posfeed);
     Count ++;
   } else {
