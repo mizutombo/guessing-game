@@ -14,3 +14,5 @@ README.md<br/>
 
 ** start class04<br/>
 * 6-JUL-2015 / created branch "class04" for ongoing changes to implement functions and CSS ... created new file "index.css" ... ACP to git.
+* 7-JUL-2015 / created new file "gamefunction.js" as source for new code to create function capability with guessing game from "game.js" file ... linked into "index.html" file as onclick functional user interface.
+* 7-JUL-2015 / crunched "gamefunction.js" code to functional status for first 3 guessing game questions; Yes or No.
