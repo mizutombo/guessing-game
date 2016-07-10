@@ -19,3 +19,4 @@ README.md<br/>
 * 7-JUL-2016 / developed & debugged code for first 5 questions in "gamefunction.js" ... validated in browser for functionality ... ACP to git.
 * 8-JUL-2016 / worked on writing code to write questions & answers to DOM, and minimize usage of alerts.
 * 9-JUL-2016 / debugged code for correctly writing questions & answers to DOM ... tested and validated code functionality.
+* 10-JUL-2016 / code index.css, link into index.html file, and implement into DOM ... ACP to git.
