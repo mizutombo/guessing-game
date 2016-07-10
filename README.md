@@ -17,3 +17,5 @@ README.md<br/>
 * 7-JUL-2016 / created new file "gamefunction.js" as source for new code to create function capability with guessing game from "game.js" file ... linked into "index.html" file as onclick functional user interface.
 * 7-JUL-2016 / crunched "gamefunction.js" code to functional status for first 3 guessing game questions; Yes or No.
 * 7-JUL-2016 / developed & debugged code for first 5 questions in "gamefunction.js" ... validated in browser for functionality ... ACP to git.
+* 8-JUL-2016 / worked on writing code to write questions & answers to DOM, and minimize usage of alerts.
+* 9-JUL-2016 / debugged code for correctly writing questions & answers to DOM ... tested and validated code functionality.
