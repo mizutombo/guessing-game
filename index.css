@@ -1,15 +1,47 @@
 
 body {
   font-family: Trebuchet;
-  font-size: 22px;
+  font-size: 28px;
   color: black;
+  background-color: #D3EFF2;
   padding-left: 25px;
   padding-right: 25px;
 }
 h1 {
-  color: blue;
+    display: block;
+    color: blue;
+    background-color: lightyellow;
+    border: 2px solid black;
+    height: 55px;
+    width: 565px;
+    vertical-align: middle;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 6px;
+    padding-bottom: 15px;
 }
 h2 {
   color: purple;
   font-style: italic;
+}
+p {
+  padding-left: 20px;
+}
+li {
+  padding-left: 25px;
+  padding-right: 40px;
+  margin-left: 20px;
+  line-height: 1.2em;
+}
+hr {
+  background-color: red;
+  height: 4px;
+}
+input {
+  background-color: yellow;
+  border-color: blue;
+  color: darkblue;
+  font-size: 20px;
+  font-weight: bold;
 }

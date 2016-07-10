@@ -22,3 +22,4 @@ README.md<br/>
 * 10-JUL-2016 / code index.css, link into index.html file, and implement into DOM ... ACP to git.
 * 10-JUL-2016 / cleaned up indentations and line spacing in gamefunction.js file to improve readability and to enable easier function isolation for testing ... ACP to git.
 * 10-JUL-2016 / prep for roll files to new branch class05 ... changed all variable names to camel-case ... eliminated excessive muted messages to use ... updated README ... ACP to git.
+* 10-JUL-2016 / incorporated additional CSS styling & updated README ... ACP to git.
