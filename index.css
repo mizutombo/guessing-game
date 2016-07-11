@@ -45,3 +45,23 @@ input {
   font-size: 20px;
   font-weight: bold;
 }
+.que {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.correct {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+.wrong {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.gameover {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+}
