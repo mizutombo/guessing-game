@@ -23,3 +23,4 @@ README.md<br/>
 * 10-JUL-2016 / cleaned up indentations and line spacing in gamefunction.js file to improve readability and to enable easier function isolation for testing ... ACP to git.
 * 10-JUL-2016 / prep for roll files to new branch class05 ... changed all variable names to camel-case ... eliminated excessive muted messages to use ... updated README ... ACP to git.
 * 10-JUL-2016 / incorporated additional CSS styling & updated README ... ACP to git.
+* 11-JUL-2016 / incorporated images into gamefunction.js to add images for correct and wrong answers from user ... updated README ... ACP to git ... add new branch gh-pages ... push to gh-pages.
